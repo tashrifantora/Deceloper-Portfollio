@@ -1,0 +1,71 @@
+/* Shared css */
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.text-primary {
+    color: #FD6E0A;
+}
+
+.btn-primary {
+
+    background-color: #FD6E0A;
+    color: white;
+    width: 150px;
+    height: 64px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+/* Nav related styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 200px;
+
+
+}
+
+.nav-title {
+    color: #181818;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 800;
+}
+
+nav>ul {
+    display: flex;
+    align-items: center;
+
+}
+
+nav li {
+    list-style: none;
+    margin: 50px;
+}
+
+li a {
+    text-decoration: none;
+    color: #474747;
+
+}
+
+/* Header related css */
+.header {
+    background-color: #FFF8F3;
+
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 30px 30px 150px;
+}
+
+.banner img {
+    width: 584px;
+    height: 676px;
+}
