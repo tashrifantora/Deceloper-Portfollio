@@ -221,3 +221,13 @@ main section {
     margin-top: 50px;
     text-align: center;
 }
+
+
+/* Footer part */
+.footer {
+    display: flex;
+    background: #FFF8F3;
+    margin-top: 100px;
+    padding: 130px 200px;
+    gap: 117px;
+}
