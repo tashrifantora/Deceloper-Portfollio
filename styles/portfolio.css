@@ -101,7 +101,11 @@ li a {
 }
 
 /* Main section styles */
-
+/*  */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
 
 /* About  sections styles */
 .about {
@@ -125,4 +129,22 @@ li a {
     text-align: center;
     font-size: 18px;
     line-height: 30px;
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-info {
+    text-align: center;
+}
+
+.info-title {
+    color: #757575;
+}
+
+.info-discription {
+    color: #474747;
+    font-weight: 700;
 }
